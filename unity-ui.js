@@ -8,6 +8,21 @@ function emptyBreakerMeshPlaceholder(source){return EMPTY_BREAKER_MESH_PATHS.has
 
 const NS='http://www.w3.org/2000/svg';
 const SCRIPT={horizontal:-405508275,vertical:1297475563};
+
+const originalFontLoads=new Map();
+async function loadOriginalFont(font){
+ const key=font.family+'|'+font.url;
+ let request=originalFontLoads.get(key);
+ if(!request){request=(async()=>{
+  const response=await fetch(new URL(font.url,document.baseURI));
+  if(!response.ok)throw Error('Original font download failed ('+response.status+'): '+font.url);
+  const bytes=await response.arrayBuffer();
+  const face=await new FontFace(font.family,bytes).load();
+  document.fonts.add(face);return face;
+ })();originalFontLoads.set(key,request);request.catch(()=>originalFontLoads.delete(key));}
+ const face=await request;if(!document.fonts.has(face))document.fonts.add(face);return face;
+}
+
 let mountSerial=0;
 const number=(v,f=0)=>Number.isFinite(+v)?+v:f;
 const vec=(v,x=0,y=x)=>({x:number(v&&v.x,x),y:number(v&&v.y,y)});
@@ -380,7 +395,7 @@ function mountScene(host,scene,options={},fontDeclarationLease=null,fontMountSta
   // Load/validate every exported original face independently, preserving its identity.
   const prefix=descriptor.slice(0,descriptor.search(/(?:[0-9.]+)(?:px|pt|em|rem|%)\s/));
   const size=descriptor.match(/(?:[0-9.]+)(?:px|pt|em|rem|%)\s/)?.[0]||'16px ';
-  const loaded=await Promise.all(expected.map(async font=>{const sample=font.compatibilityFallback===true&&Array.isArray(font.codepoints)?font.codepoints.map(value=>String.fromCodePoint(parseInt(value.slice(2),16))).join(''):text;const faces=[...await document.fonts.load(prefix+size+'"'+font.family+'"',sample).catch(error=>{throw Error('Required font failed: '+font.family+' — '+font.url+' — '+error.message)})],family=face=>String(face.family||'').trim().replace(/^['"]|['"]$/g,'');const exact=faces.filter(face=>family(face)===font.family&&face.status==='loaded');if(!exact.length)throw Error('Required original font face did not load: '+font.family);readyFonts.set(font.family,{url:font.url,faces:exact});return exact;}));return loaded.flat();
+  const loaded=await Promise.all(expected.map(async font=>{const face=await loadOriginalFont(font);if(face.status!=='loaded')throw Error('Required original font face did not load: '+font.family);const exact=[face];readyFonts.set(font.family,{url:font.url,faces:exact});return exact;}));return loaded.flat();
  }
 
  let resourcePaused=!!options.resourcePaused,resourcePausedAt=resourcePaused?performance.now():0,resourcePausedMs=0;
