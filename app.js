@@ -76,6 +76,7 @@ function showResourceDiagnostics(visible=true){
  refreshResourceDiagnostics();
 }
 function refreshResourceDiagnostics(){if(resourceDiagnosticsPanel)resourceDiagnosticsPanel.textContent=JSON.stringify(resourceDiagnostics.snapshot(),null,2);}
+if(new URLSearchParams(location.search).get('diagnostics')==='1')showResourceDiagnostics();
 // Pure token controller. A stale result can neither continue native logic nor
 // clear another transition's loading mask. A failed warm keeps the same owner.
 function createResourceGate(hooks={}){

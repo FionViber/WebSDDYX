@@ -106,7 +106,7 @@ function richText(el,text,context={}) {
 // An app may explicitly own its original declarations across root remounts.
 // This holds one stylesheet, never FontFace objects, readiness or UI callbacks.
 function fontDeclarationText(fonts,base){
- const assetURL=p=>{if(!p)return '';return /^(data:|blob:|https?:|file:|\/)/.test(p)?p:base+p;};
+ const assetURL=p=>{if(!p)return '';p=global.SDDYXAssetPolicy?.resolveURL?.(p)||p;return /^(data:|blob:|https?:|file:|\/)/.test(p)?p:base+p;};
  let text='';const usedFamilies=new Set();
  for(const f of Object.values(fonts)){if(f.family&&f.url&&!usedFamilies.has(f.family)){usedFamilies.add(f.family);text+=`@font-face{font-family:"${f.family}";src:url("${assetURL(f.url).replace(/"/g,'%22')}");font-display:swap;}\n`;}}
  return text;
@@ -209,7 +209,7 @@ function mountScene(host,scene,options={},fontDeclarationLease=null,fontMountSta
  const native=options.referenceResolution||scene.canvases?.find(c=>c.canvas.m_RenderMode!==2)?.referenceResolution||{x:3840,y:2160};
  let width=number(native.x,3840),height=number(native.y,2160);
  const content=options.content||global.SDDYX_CONTENT,config=content?.config||{};let locale=options.locale||'en',translatedConfig=content?.i18n?.[locale]||{};
- const assetURL=p=>{if(!p)return '';return /^(data:|blob:|https?:|file:|\/)/.test(p)?p:base+p;};
+ const assetURL=p=>{if(!p)return '';p=global.SDDYXAssetPolicy?.resolveURL?.(p)||p;return /^(data:|blob:|https?:|file:|\/)/.test(p)?p:base+p;};
  // A runtime texture remains owned by its source atlas/capture. These are
  // full-resolution DOM fallback copies only, never the source or shader canvas.
  const runtimeCanvasFallbacks=new WeakMap();
@@ -230,7 +230,7 @@ function mountScene(host,scene,options={},fontDeclarationLease=null,fontMountSta
  if(fontMountState)fontMountState.cleanups.push(()=>imageObserver?.disconnect());
  function discardImages(element){for(const img of element.querySelectorAll('img[data-source-url]')){imageObserver?.unobserve(img);pendingImages.delete(img);if(currentCommonImagePin(img))continue;readyImages.delete(img);releaseImageSource(img);}releaseCanvasFallbacks(element);}
  function resumeImages(element){for(const img of element.querySelectorAll('img[data-source-url]'))if(!img.getAttribute('src')&&!pendingImages.has(img))queueImage(img,img.dataset.sourceUrl);}
- function queueImage(img,url){img.dataset.sourceUrl=url;if(global.SDDYX_RESIDENT?.ready&&global.SDDYX_RESIDENT.imageReady(url)){img.src=url;if(img.complete&&img.naturalWidth>0)readyImages.set(img,url);return;}pendingImages.add(img);if(imageObserver)imageObserver.observe(img);else requestAnimationFrame(()=>{if(pendingImages.has(img)&&img.dataset.sourceUrl===url&&img.isConnected&&img.closest('[data-unity-path]')?.__unityNode?.visible){img.src=url;pendingImages.delete(img);}});}
+ function queueImage(img,url){url=assetURL(url);img.dataset.sourceUrl=url;if(global.SDDYX_RESIDENT?.ready&&global.SDDYX_RESIDENT.imageReady(url)){img.src=url;if(img.complete&&img.naturalWidth>0)readyImages.set(img,url);return;}pendingImages.add(img);if(imageObserver)imageObserver.observe(img);else requestAnimationFrame(()=>{if(pendingImages.has(img)&&img.dataset.sourceUrl===url&&img.isConnected&&img.closest('[data-unity-path]')?.__unityNode?.visible){img.src=url;pendingImages.delete(img);}});}
 
  // Resource preparation is not a simulation tick. Native emitter construction,
  // prewarm, animation events, and shared RNG remain in their original paths.
