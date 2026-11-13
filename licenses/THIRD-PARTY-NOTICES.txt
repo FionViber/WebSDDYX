@@ -1,0 +1,24 @@
+Third-party runtime notices
+
+Live2D Cubism Core
+Copyright (C) 2019 Live2D Inc. All rights reserved.
+The unchanged Core file retains its original copyright and redistribution notice.
+Official direct source: https://cubism.live2d.com/sdk-web/core/05/live2dcubismcore.min.js
+Observed runtime version: 5.1.0 (csmGetVersion: 83951616).
+The official download family's “Cubism5.2” label is not the Core binary version.
+License: Live2D-Proprietary-Software-License.html
+https://www.live2d.com/eula/live2d-proprietary-software-license-agreement_en.html
+
+Live2D physics and harmonic-motion reference algorithms
+Copyright Live2D Inc. Browser adaptations are in animation.js.
+Reference: https://github.com/Live2D/CubismUnityComponents
+License: Live2D-Open-Software-License.html
+https://www.live2d.com/eula/live2d-open-software-license-agreement_en.html
+
+LZ-String
+Copyright (c) 2013 pieroxy. MIT License.
+License: lz-string-LICENSE.txt
+
+Original game assets, narrative, configuration and designs retain their respective
+owners' rights. This browser port does not grant additional rights to those assets.
+Live2D agreement acceptance does not imply every redistribution is fee-free.

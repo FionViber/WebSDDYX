@@ -1,0 +1,11 @@
+Missing-glyph compatibility fonts
+
+Modified 2026-10-28: subset to audited SDDYX missing Unicode glyphs, renamed family, and converted to WOFF. Glyph outlines retained. This compatibility font is not an original game font.
+
+Original game font files are unchanged. The extra families contain only the audited missing codepoints and are appended after every original fallback. They provide legible fallback, not a claim to match an absent original glyph.
+
+BabelStone Han16.0.3 derivative: original Arphic Public License retained. Original copyright: Arphic Technology Co., Ltd.; Andrew West.
+GNU Unifont16.0.04 derivatives: distributed under SIL Open Font License1.1; original dual-license notice also retained.
+
+Upstream URLs, SHA-256 identities, exact subset coverage and renamed families: compatibility-fonts-manifest.json.
+Build recipe: build_missing_glyph_fallbacks.py.

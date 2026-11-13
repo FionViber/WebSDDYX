@@ -1,0 +1,448 @@
+Bundled font metadata and notices
+
+These are verbatim metadata records extracted from the included, unchanged font files, with SHA-256 identity. They are not a grant of additional rights or a complete review of distribution terms. Empty fields mean no corresponding embedded metadata was found. User-supplied game assets remain within the authorized port/test scope; font-specific terms not established by these records remain unresolved. No third-party font file was substituted.
+
+Full OFL text is present inside the included Altinn-DIN, Altinn-DINCondensed and SourceCodePro fonts and reproduced below as their own embedded metadata. Other font records are reproduced as found, without assuming identical terms.
+
+assets/original/Font/Altinn-DIN.otf
+SHA-256: a74e9c90d49e7bdc44dae23249d4817aa5806f566bc1c5b78c74fa874abe8226
+Copyright (name ID 0):
+Copyright © Altinn. All rights reserved.
+License text (name ID 13):
+Copyright (c) 2019, Altinn. (https://github.com/Altinn/altinn-din),
+with Reserved Font Name Altinn-DIN.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+License URL (name ID 14):
+http://scripts.sil.org/OFL
+
+assets/original/Font/Altinn-DINCondensed.otf
+SHA-256: 3eda5aad591bcf24cc2b604992496cd3dc6a6996eb087fa2de7fda38ade83602
+Copyright (name ID 0):
+Copyright © Altinn. All rights reserved.
+License text (name ID 13):
+Copyright (c) 2019, Altinn. (https://github.com/Altinn/altinn-din),
+with Reserved Font Name D-DIN Condensed.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+License URL (name ID 14):
+http://scripts.sil.org/OFL
+
+assets/original/Font/HYJieLongTaoHuaYuanW-2.ttf
+SHA-256: 49579818a5a8c135cc2f884b06edc1b01723cebbb6ea3f1c608d1b1b59a0d70a
+Copyright (name ID 0):
+(c) Copyright 2022 Beijing Hanyi Innovation Technology Co.,Ltd
+(c) 2022 北京汉仪创新科技股份有限公司 版权所有
+License text (name ID 13):
+Please visit http://hanyi.com.cn/law.php for license information.
+请访问http://hanyi.com.cn/law.php了解授权协议。
+License URL (name ID 14):
+http://hanyi.com.cn/law.php
+
+assets/original/Font/LINESeedJP_OTF_Rg.otf
+SHA-256: e42eb690d30d9e16da4a2e69821e3dab56adb3df8550fa42ba50547712fd0721
+Copyright (name ID 0):
+© LINE 2022
+License text (name ID 13):
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+License URL (name ID 14):
+https://scripts.sil.org/OFL
+
+assets/original/Font/LeagueGothic-Regular.otf
+SHA-256: a71d574cb5c8b4e780964356223ca504eeee0144202766f569982da9e73c0d47
+Copyright (name ID 0):
+2009 - 2011, The League of Moveable Type
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/NotoSerifJP-Regular.ttf
+SHA-256: c70a5060f8fe46012a6995f7e35a8930d0a7989c66a6892d3ec00a15f244835d
+Copyright (name ID 0):
+(c) 2017-2024 Adobe (http://www.adobe.com/).
+License text (name ID 13):
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+License URL (name ID 14):
+https://openfontlicense.org
+
+assets/original/Font/Orbitron Black.otf
+SHA-256: 2791b15f7cf75482e8906fdb73a9aace31a0f995b04942aa8d07cafdfec9ec48
+Copyright (name ID 0):
+Generated in 2009 by FontLab Studio. Copyright info pending.
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/Orbitron Bold.otf
+SHA-256: 0d34b02d6cb8cb70d70eee361e70713cc58d53265b50540c7a162097cfc9ad13
+Copyright (name ID 0):
+Generated in 2009 by FontLab Studio. Copyright info pending.
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/Orbitron Light.otf
+SHA-256: 7d6013ab836977b66903bb6ae625a963864ea254fd7a9e84c22bff8487c3b33c
+Copyright (name ID 0):
+Generated in 2009 by FontLab Studio. Copyright info pending.
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/Orbitron Medium.otf
+SHA-256: 6d466e1c0478e93cbe24d3f069c61c654ebb3d7d384581379cadac2c77794104
+Copyright (name ID 0):
+Generated in 2009 by FontLab Studio. Copyright info pending.
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/SourceCodePro-Regular.otf
+SHA-256: 0a42f6706d3752445644d2f751d0fa684f22da1516d71391ac6626250a79c7a0
+Copyright (name ID 0):
+Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved.
+License text (name ID 13):
+Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+
+"Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+
+"Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+License URL (name ID 14):
+http://www.adobe.com/type/legal.html
+
+assets/original/Font/Sweynheim&Pannartz-Subiaco-ProtoRoman120R.otf
+SHA-256: a2f79d0fb0e387c2d9ef71f07c9b9cd3a4611f9251c172a2e8e1fa8d0fb96bda
+Copyright (name ID 0):
+Copyright © 2019 ANRT. All rights reserved.
+License text (name ID 13):
+SIL OPEN FONT LICENSE (OFL 1.1)
+License URL (name ID 14):
+https://opensource.org/licenses/OFL-1.1
+
+assets/original/Font/UoqMunThenKhung-1.000.ttf
+SHA-256: 546f994ec5af8d72464ad5915ab2e66489bc63581d375d1bd624212d9f1f47bd
+Copyright (name ID 0):
+Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei), Moonlit Owen (https://github.com/MoonlitOwen/ThenKhung)
+License text (name ID 13):
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+License URL (name ID 14):
+https://scripts.sil.org/OFL
+
+assets/original/Font/XiQueGuZiDianTiJFT.ttf
+SHA-256: 5f8f55811cda20bf22a2f71d107da19cdd16156dddc861025dd0948e8167e5bc
+Copyright (name ID 0):
+LUCKYTYPE FONT DESIGN
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/font_1_kokumr_1.00_rls.ttf
+SHA-256: 88be4176d46f51f4ca201b97455b37e3d22d85db6ce1f5acd489a307aa34a1c2
+Copyright (name ID 0):
+(c) freefontnoki, Information-technology Promotion Agency, Japan (IPA)
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/kurobara-cinderella.ttf
+SHA-256: 7eb144f6781107438b35f8d761efff9a6db6a8c2710b560bee520f73e5928025
+Copyright (name ID 0):
+Copyright(c) 2017 M+ FONTS PROJECT/MODI
+License text (name ID 13):
+This font is free software. Unlimited permission is granted to use, copy, and distribute it, with or without modification, either commercially or noncommercially. THIS FONT IS PROVIDED "AS IS" WITHOUT WARRANTY.
+このフォントはフリー（自由な）ソフトウエアです。あらゆる改変の有無に関わらず、また商業的な利用であっても、自由にご利用、複製、再配布することができますが、全て無保証とさせていただきます。
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/taisyoKatujippoi7.ttf
+SHA-256: ec8b5d39b69113cea960b5a846e227aaa7838a9e6fe32b045920162999cc6230
+Copyright (name ID 0):
+gata, Gutenberg Labo.
+ Ryusei Yamaguchi. HORAI Wataru. . modified font of Source Han Serif
+gata, Gutenberg Labo.
+ Ryusei Yamaguchi. HORAI Wataru. modified font of Source Han Serif
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+
+assets/original/Font/xiquemuye.ttf
+SHA-256: e02c6acb20664d737b2d184e428df5cb402398d450bf31ead75bef1ce2be78fc
+Copyright (name ID 0):
+Luckytype
+License text (name ID 13):
+[No embedded record]
+License URL (name ID 14):
+[No embedded record]
+

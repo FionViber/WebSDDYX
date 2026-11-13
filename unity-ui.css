@@ -1,0 +1,35 @@
+/* Unity layout renderer. All decorative pixels and typography come from the export. */
+.sddyx-unity-host { position: relative; overflow: clip; isolation: isolate; background: #000; }
+.sddyx-unity-stage { position: absolute; left: 0; top: 0; transform-origin: 0 0; overflow: clip; pointer-events: none; }
+.sddyx-unity-node { position: absolute; box-sizing: border-box; margin: 0; padding: 0; border: 0; outline: none; pointer-events: none; }
+.sddyx-unity-node[hidden], .sddyx-unity-graphic[hidden] { display: none !important; }
+.sddyx-unity-node[data-interactive="true"] { pointer-events: auto; cursor: pointer; outline: none; -webkit-tap-highlight-color: transparent; }
+.sddyx-unity-node[data-interactive="true"] .sddyx-unity-graphic[data-raycast="true"] { pointer-events: auto; cursor: inherit; }
+.sddyx-unity-node[aria-disabled="true"] { cursor: default; }
+.sddyx-unity-graphic { position: absolute; inset: 0; pointer-events: none; box-sizing: border-box; }
+.sddyx-unity-image, .sddyx-unity-slice { overflow: hidden; }
+.sddyx-unity-image img, .sddyx-unity-slice img { position: absolute; display: block; max-width: none !important; max-height: none !important; margin: 0; user-select: none; -webkit-user-drag: none; pointer-events: none; }
+.sddyx-unity-text { display: flex; flex-direction: column; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; line-height: 1; font-weight: normal; font-synthesis: none; user-select: none; }
+.sddyx-unity-text-inner { flex: 0 0 auto; min-width: 0; width: 100%; }
+.sddyx-unity-scroll { overflow: auto; scrollbar-width: none; -ms-overflow-style: none; pointer-events: auto; overscroll-behavior: contain; }
+.sddyx-unity-scroll::-webkit-scrollbar { display: none; }
+.sddyx-unity-defs { width: 0; height: 0; position: absolute; pointer-events: none; }
+
+.sddyx-unity-graphic[data-shader-ready="true"] > :not(.sddyx-unity-shader) { visibility:hidden; }
+
+/* Unity CanvasGroup.blocksRaycasts disables descendant Graphic raycasts. */
+.sddyx-unity-node[data-raycast-blocked="true"],.sddyx-unity-node[data-raycast-blocked="true"] *{pointer-events:none!important}
+
+/* Graphic.raycastPadding changes hit geometry without clipping source artwork. */
+.sddyx-unity-node[data-padded-raycast="true"] { pointer-events: none; }
+.sddyx-unity-raycast { position:absolute; pointer-events:none; }
+.sddyx-unity-node[data-interactive="true"] .sddyx-unity-raycast { pointer-events:auto; cursor:inherit; }
+.sddyx-unity-raycast[hidden] { display:none; }
+
+/* Original RectMask hit filters use separate clipped surfaces, preserving hit fall-through. */
+.sddyx-unity-node[data-rect-mask-hits="true"] { pointer-events:none; }
+
+/* Original AlphaRaycastFilter gates hit geometry only; decorative pixels stay intact. */
+.sddyx-unity-alpha-raycast { position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible; }
+.sddyx-unity-node[data-alpha-raycast="true"],.sddyx-unity-node[data-alpha-raycast="true"] .sddyx-unity-node,.sddyx-unity-node[data-alpha-raycast="true"] .sddyx-unity-graphic,.sddyx-unity-node[data-alpha-raycast="true"] .sddyx-unity-raycast { pointer-events:none!important; }
+.sddyx-unity-node[data-interactive="true"] .sddyx-unity-alpha-raycast path { pointer-events:fill; }

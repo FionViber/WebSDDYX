@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "generated": "2026-10-28",
+  "scope": "Only26visible codepoints absent from all18original game font binaries. Existing original glyph/font precedence is unchanged.",
+  "excludedNonspacingSelector": [
+    "U+FE0E"
+  ],
+  "entries": [
+    {
+      "family": "SDDYX Missing Han",
+      "url": "assets/compatibility-fonts/sddyx-missing-han.woff",
+      "compatibilityFallback": true,
+      "codepoints": [
+        "U+26AA",
+        "U+3F06",
+        "U+3FC4",
+        "U+4B1E",
+        "U+4C71",
+        "U+4CD7",
+        "U+4CD8",
+        "U+4EE7",
+        "U+5754",
+        "U+66B6",
+        "U+6C3C",
+        "U+6E02",
+        "U+70A3",
+        "U+7148",
+        "U+7456",
+        "U+77DD",
+        "U+79DB",
+        "U+7E02",
+        "U+7FD9",
+        "U+8D6A",
+        "U+98D4",
+        "U+9A72",
+        "U+25303"
+      ],
+      "bytes": 16020,
+      "sha256": "79589496fda878959c04afb5ac3a443ba1d497d81de841ec57e8c79aebc445f2",
+      "upstream": {
+        "file": "BabelStoneHan.ttf",
+        "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneHan-16.0.3.zip",
+        "sha256": "d8bb747b3fdccd84a60bd0aa56bb90937270d0bd15f1101cd8f2a5a3709dd0a3",
+        "license": "licenses/compatibility-fonts/Arphic-Public-License.txt"
+      },
+      "modification": "Modified 2026-10-28: subset to audited SDDYX missing Unicode glyphs, renamed family, and converted to WOFF. Glyph outlines retained. This compatibility font is not an original game font."
+    },
+    {
+      "family": "SDDYX Missing Symbols",
+      "url": "assets/compatibility-fonts/sddyx-missing-symbols.woff",
+      "compatibilityFallback": true,
+      "codepoints": [
+        "U+0648",
+        "U+0E51"
+      ],
+      "bytes": 1632,
+      "sha256": "acca5742448c8486c6f61158d4ebe9d0bf13dea11bc4fb9a59199edd8fcda69c",
+      "upstream": {
+        "file": "unifont-16.0.04.otf",
+        "url": "https://unifoundry.com/pub/unifont/unifont-16.0.04/font-builds/unifont-16.0.04.otf",
+        "sha256": "0e3981ab552231b5a2a870f2b61741903a4bf25c23ef5aeb05fdced1b3c7af4d",
+        "license": "licenses/compatibility-fonts/Unifont-OFL-1.1.txt"
+      },
+      "modification": "Modified 2026-10-28: subset to audited SDDYX missing Unicode glyphs, renamed family, and converted to WOFF. Glyph outlines retained. This compatibility font is not an original game font."
+    },
+    {
+      "family": "SDDYX Missing Emoji",
+      "url": "assets/compatibility-fonts/sddyx-missing-emoji.woff",
+      "compatibilityFallback": true,
+      "codepoints": [
+        "U+1F97A"
+      ],
+      "bytes": 1656,
+      "sha256": "94c1c2044e9feeefcd268054fcb666e32d8bd7fc2fb41fa7e18c6b8dd4d8f8bb",
+      "upstream": {
+        "file": "unifont_upper-16.0.04.otf",
+        "url": "https://unifoundry.com/pub/unifont/unifont-16.0.04/font-builds/unifont_upper-16.0.04.otf",
+        "sha256": "fc8c6e9c4958243cef651c87cfbd916916f3545215d3ebcae92366b6edbb2f05",
+        "license": "licenses/compatibility-fonts/Unifont-OFL-1.1.txt"
+      },
+      "modification": "Modified 2026-10-28: subset to audited SDDYX missing Unicode glyphs, renamed family, and converted to WOFF. Glyph outlines retained. This compatibility font is not an original game font."
+    }
+  ],
+  "missing": []
+}

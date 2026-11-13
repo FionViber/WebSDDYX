@@ -1,0 +1,360 @@
+{
+  "format": "sddyx-round2-frozen-runtime-v1",
+  "identity": "5c8b0793f36197437ba35f1bf5766c6b5ac3dd1e4b78692bb61a636256e6602b",
+  "generatedUTC": "2026-10-28T22:15:07.540759+00:00",
+  "files": [
+    {
+      "path": "assets/compatibility-fonts/sddyx-missing-emoji.woff",
+      "runtimePath": "assets/compatibility-fonts/sddyx-missing-emoji.woff",
+      "bytes": 1656,
+      "sha256": "94c1c2044e9feeefcd268054fcb666e32d8bd7fc2fb41fa7e18c6b8dd4d8f8bb"
+    },
+    {
+      "path": "assets/compatibility-fonts/sddyx-missing-han.woff",
+      "runtimePath": "assets/compatibility-fonts/sddyx-missing-han.woff",
+      "bytes": 16020,
+      "sha256": "79589496fda878959c04afb5ac3a443ba1d497d81de841ec57e8c79aebc445f2"
+    },
+    {
+      "path": "assets/compatibility-fonts/sddyx-missing-symbols.woff",
+      "runtimePath": "assets/compatibility-fonts/sddyx-missing-symbols.woff",
+      "bytes": 1632,
+      "sha256": "acca5742448c8486c6f61158d4ebe9d0bf13dea11bc4fb9a59199edd8fcda69c"
+    },
+    {
+      "path": "docs/COMPATIBILITY-FONTS.txt",
+      "runtimePath": "COMPATIBILITY-FONTS.txt",
+      "bytes": 872,
+      "sha256": "9817260ea2a0d0fac242672fc632dc5f23246ccff54725ae67ce67c2eb7188a0"
+    },
+    {
+      "path": "docs/compatibility-fonts-manifest.json",
+      "runtimePath": "compatibility-fonts-manifest.json",
+      "bytes": 3231,
+      "sha256": "a9ef014b933843126c9ba7414d5171fe85ac0a61e0a7995647a0410576142162"
+    },
+    {
+      "path": "docs/licenses/compatibility-fonts/Arphic-Public-License.txt",
+      "runtimePath": "licenses/compatibility-fonts/Arphic-Public-License.txt",
+      "bytes": 6959,
+      "sha256": "ba74a961aaa5fa7e73dc67276df2781ba405da2cb30c52c9d9eee9c200d4d11e"
+    },
+    {
+      "path": "docs/licenses/compatibility-fonts/Unifont-LICENSE.txt",
+      "runtimePath": "licenses/compatibility-fonts/Unifont-LICENSE.txt",
+      "bytes": 24142,
+      "sha256": "1e74cb82bf476843e97c2596297b04219b1a7e51f7238944a8c031cb9401fa87"
+    },
+    {
+      "path": "docs/licenses/compatibility-fonts/Unifont-OFL-1.1.txt",
+      "runtimePath": "licenses/compatibility-fonts/Unifont-OFL-1.1.txt",
+      "bytes": 4340,
+      "sha256": "869692af094c57fb7258c57fe26820c759319603321d0ffeb278de3651763ded"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3824,
+      "sha256": "83e550ea78b5743a1bc929521914ce71b6904b889feb7c7c0dbd0940df08d134"
+    },
+    {
+      "path": "preload-catalog.js",
+      "bytes": 2874,
+      "sha256": "1c4fab3b6e210e6489f87d8dc9513247e9585ace69238872d2d9336076ebf451"
+    },
+    {
+      "path": "src/animation.js",
+      "bytes": 1246941,
+      "sha256": "6d87eaecf95b21ac2a7be9bb75f6424e8747bc886fa3844945a0ea5a87bce43a"
+    },
+    {
+      "path": "src/app-mobile-adapter.js",
+      "bytes": 20249,
+      "sha256": "f1068e5c3c2a81842198e3a03e81222a4b7220e7869fc8ecc9878668acb5192a"
+    },
+    {
+      "path": "src/app.css",
+      "bytes": 3583,
+      "sha256": "1a06a15671d007c9d2da7fc5ae905c0084fdac878702597bc7ff2e29fecbc6d5"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 195106,
+      "sha256": "4854a9349c6de8625ab1bbca2da6411a8c5dbc45be5e25755715c72123689b6e"
+    },
+    {
+      "path": "src/aspect-ratio-fitter.js",
+      "bytes": 3817,
+      "sha256": "7be15c88f1c27b7d0cd1445872577237b995011e2bad0a3a45b8b5455ac3ddd9"
+    },
+    {
+      "path": "src/auto-scroll-selection.js",
+      "bytes": 6918,
+      "sha256": "5d8df0e167764af0aeb5db07a0486e05ab5cb1c5b4ec446486d3dadec040bc66"
+    },
+    {
+      "path": "src/black-shadow-textures.js",
+      "bytes": 1273890,
+      "sha256": "5531a6658f93f383761dedeafbbc8b866f1adba3804bbcd73a43e1b3480dfacd"
+    },
+    {
+      "path": "src/board-input.js",
+      "bytes": 10152,
+      "sha256": "f297c027f2439f1603a160bddace37e1b1c2533925f13bc64185cc8ca2acafda"
+    },
+    {
+      "path": "src/card-info-ui.js",
+      "bytes": 18131,
+      "sha256": "af0ab3b381def04beced8542e35d260df7843d7dc78c7fd961ba3f62b886c8d8"
+    },
+    {
+      "path": "src/card-interaction.js",
+      "bytes": 35909,
+      "sha256": "3af0d738fb3726b2d5796f66cc726beaf656f0ebb24abacdfa6f5a566de2d370"
+    },
+    {
+      "path": "src/compatibility-fonts.js",
+      "bytes": 1752,
+      "sha256": "4fd919d320f41758e5c5a01eb8d2834acc2f9628f55b496513e7cd1689a50b8c"
+    },
+    {
+      "path": "src/flow-layout.js",
+      "bytes": 6688,
+      "sha256": "191ac7f761ab817e5ec3bfa12d22bd3b457296d55c9f4dcec2ce4beee75c529c"
+    },
+    {
+      "path": "src/guide-ui.js",
+      "bytes": 14328,
+      "sha256": "e06f2fbf322f9dbee1d7e39a54737a40681c7f9c2a78304e83243f2bb3c2d630"
+    },
+    {
+      "path": "src/held-card-input.js",
+      "bytes": 10880,
+      "sha256": "8c3e6507601455dee6109feaa5567beb5e0084ba53f66911e7c7042b9d99cab2"
+    },
+    {
+      "path": "src/input-device.js",
+      "bytes": 62308,
+      "sha256": "28d6548d5916ccf422c614ee05cdc4c39d9ecd9fa4524c28037dd99c47b46cd4"
+    },
+    {
+      "path": "src/input-display.js",
+      "bytes": 12903,
+      "sha256": "d4a62a688364368450bc41fbce26f2dba11dbe8f23b4b6d225a25bd6cb1c5a72"
+    },
+    {
+      "path": "src/input-router.js",
+      "bytes": 22940,
+      "sha256": "1914db1866670421c7749f754bbb14c2a6aafbb0f35391eefa61cc6e6bd9474c"
+    },
+    {
+      "path": "src/interaction-visuals.js",
+      "bytes": 13621,
+      "sha256": "6233d0a3aaa36301006f53705ef469bbd3f9ee526fac540678eada6183971e5f"
+    },
+    {
+      "path": "src/legacy-autoplay.js",
+      "bytes": 5284,
+      "sha256": "81568b1937b3db70cad7647cdd76b8acc08ca14e7a1ae0a0140cc312fd2e675e"
+    },
+    {
+      "path": "src/localization.js",
+      "bytes": 16191,
+      "sha256": "7c0bd91d5b22832b9ee269171e45d44577db55f571c8d92aa5cca3ff5b8c0f71"
+    },
+    {
+      "path": "src/map-layout.js",
+      "bytes": 10129,
+      "sha256": "9213f5b277ca7dbb5e0cf115731952ab785e988faf27e75a66b10d6c2f760068"
+    },
+    {
+      "path": "src/meta.js",
+      "bytes": 19396,
+      "sha256": "8134f9ac5507db0dd15383f6510a168e754bc9b350c8ddce65c2cb2875cc6d4a"
+    },
+    {
+      "path": "src/mobile-platform.js",
+      "bytes": 4909,
+      "sha256": "81274b29b9abade350e46d8ac8041923337cb9b011a90b17358d2ea2b887021a"
+    },
+    {
+      "path": "src/mobile-ui.js",
+      "bytes": 36759,
+      "sha256": "2904be3273ec43007a81003e419e62defe9a935c8d47f700174363d40e183d43"
+    },
+    {
+      "path": "src/option-ui.js",
+      "bytes": 5708,
+      "sha256": "62bc275f90c96210a37bb1bdac713dba83f824d2f723f9cf32a23f9a6dbcf566"
+    },
+    {
+      "path": "src/particle-trails.js",
+      "bytes": 14492,
+      "sha256": "506fff6c6dc2fa914ccfb76d8caad0372e2f81321bdced0bd3219f5df985fa4c"
+    },
+    {
+      "path": "src/particle-world-space.js",
+      "bytes": 6148,
+      "sha256": "c6fce842570d45337da71d28f129712268b3d91284edbd6ae2bb2d112f75fde9"
+    },
+    {
+      "path": "src/platform.js",
+      "bytes": 22865,
+      "sha256": "1f23e32e074897dd5f4c7715149140982b0c9818b335ea3177031d5cd9bae364"
+    },
+    {
+      "path": "src/pointer-audio.js",
+      "bytes": 12673,
+      "sha256": "013edaa4f0ef56b3531cb8de10e47550e05d6a585160a9e6d28818a6b2430e01"
+    },
+    {
+      "path": "src/pointer-drag.js",
+      "bytes": 13115,
+      "sha256": "4e6684e5694e9221dade2871caa888529104883a6f5a9598b4ba6632bd31e7a7"
+    },
+    {
+      "path": "src/presentation-drivers.js",
+      "bytes": 30034,
+      "sha256": "e8d9192952f3902d3850c265905a644b4348375dd38f6de4e0ce5a2d92ca9f7a"
+    },
+    {
+      "path": "src/prompt-presentation.js",
+      "bytes": 10747,
+      "sha256": "25b2386f1d88a5192b8b7f04cc0de66395fd7a184067d8cb01608d8c618245b7"
+    },
+    {
+      "path": "src/rect-mask-shadow.js",
+      "bytes": 16531,
+      "sha256": "dea497e7faebaf3e98fd87d71fdb643d147ccdddf8d41ed8bc93e0d77ff69072"
+    },
+    {
+      "path": "src/resident-resources.js",
+      "bytes": 10112,
+      "sha256": "9092a4aee1e0cfef5929ddade808e10b7f59ff4e515adff74eb6e7d933f38847"
+    },
+    {
+      "path": "src/resources.js",
+      "bytes": 12685,
+      "sha256": "966e446e2a190abe8ea5f230adc0cf869188953fe3c394959ffb7730c7807c0c"
+    },
+    {
+      "path": "src/rite-marker-ui.js",
+      "bytes": 5231,
+      "sha256": "0f01b1df5944986c52ca3863bbfad7db22c626e3bea60a654d7640495f87a630"
+    },
+    {
+      "path": "src/rite-panel-ui.js",
+      "bytes": 13670,
+      "sha256": "2be52c9bfe013a00ffd8bd2893a2d76c9e253a6397e1a58f3acdc6585cf10efe"
+    },
+    {
+      "path": "src/rite-pin-lines.js",
+      "bytes": 7817,
+      "sha256": "70b61616fcc613734b2907ff7457641673dac9c06a4566eef96c46c34450f4fc"
+    },
+    {
+      "path": "src/rite-pin-ui.js",
+      "bytes": 4900,
+      "sha256": "6a0c6de72a4a2169be2b0dc1382af04dfa29e9e7fa1a0e7f0bb0610606ecb0b7"
+    },
+    {
+      "path": "src/rite-result-ui.js",
+      "bytes": 65615,
+      "sha256": "5488af86e272e05e7c99887a7bc274345f992eb67d17e671bebbc26547d8f550"
+    },
+    {
+      "path": "src/rules.js",
+      "bytes": 204987,
+      "sha256": "b207527387c9227be0b239353025290253fff3bb8f2dbd3bafda196229a07e28"
+    },
+    {
+      "path": "src/scene-bindings.js",
+      "bytes": 16630,
+      "sha256": "d631f744668d6d4a1b2b3992648c0fbaa680ed20be6cd06471aafa6c69429270"
+    },
+    {
+      "path": "src/slide-ui.js",
+      "bytes": 11875,
+      "sha256": "72a2bb4f2749a9266ad8684194d2bc6b09818362bf621e38e7896dd83e27ffc4"
+    },
+    {
+      "path": "src/source-dropdown.js",
+      "bytes": 15340,
+      "sha256": "0cf873e96d8c7f0e832ba88361c3e22ecb14e1701ceb0ffdfdd3f26885eb2016"
+    },
+    {
+      "path": "src/storage-codec.js",
+      "bytes": 3665,
+      "sha256": "6a94a650dd7309162ea01bdcadf0d39dbe4851b6e4e2d435be50b20cfb656105"
+    },
+    {
+      "path": "src/sudan-breaker.js",
+      "bytes": 19446,
+      "sha256": "4d66aafa9d68136d0725877e3a1b7eab4de3ff43662ef715af9e3fc4e4a69607"
+    },
+    {
+      "path": "src/support-scene.js",
+      "bytes": 15704,
+      "sha256": "f2ce162f540d3a33901d2a4ab4e97d8ba6f4050b3d51bb74af5e0632d4857389"
+    },
+    {
+      "path": "src/support-ui.js",
+      "bytes": 107614,
+      "sha256": "e61cb50514de14a9f3f4efab2470b60a8d4db8eea07a3842c601b4148f4b42c5"
+    },
+    {
+      "path": "src/tips-holder.js",
+      "bytes": 15741,
+      "sha256": "7c0f340242e56e69660d2fdbf5b2729757cb4d38e5a2821767b557c9002d0ff5"
+    },
+    {
+      "path": "src/unity-shaders.js",
+      "bytes": 128467,
+      "sha256": "e34950f92931ed58854f44bd15f99a35502e6fbfefdebd411597e6d723410df2"
+    },
+    {
+      "path": "src/unity-ui.css",
+      "bytes": 3220,
+      "sha256": "2e5646b9e7eefce7e7234b3816c094fd19cc7d9fe7fb4665fd0111cae973c575"
+    },
+    {
+      "path": "src/unity-ui.js",
+      "bytes": 252831,
+      "sha256": "4689e3f7d165fb796b44584ec35b5e1e385c3fcfea32c836aa44ac9027703773"
+    },
+    {
+      "path": "src/visual-modifiers.js",
+      "bytes": 16804,
+      "sha256": "270f66e44f8bed3f38349648b3de88af8ac8c9f51c4898014b86969f91d8dc92"
+    },
+    {
+      "path": "src/wizard-transition.js",
+      "bytes": 10123,
+      "sha256": "5c8b9210f823be0765c122858913497b6a055e162ed74807d2eb393b7455fa1c"
+    }
+  ],
+  "regressionRecord": "analysis/debug-round2/test-runs/round2-integrated-wave28-20261028T220818813612Z.json",
+  "regressionRecordSHA256": "ca1e98f5d9807f6f9bdff5e9f6bffaa73dcff26f51c9f1bd7d82bc62eb223a8d",
+  "regressionEndedUTC": "2026-10-28T22:09:04.922514+00:00",
+  "verificationNotes": {
+    "purpose": "Final runtime freeze for source-pinned release verification; not yet packaged or delivered",
+    "nodeChecks": 1174,
+    "logContracts": 7,
+    "artifactContracts": 10,
+    "packageContracts": 8,
+    "fontInventoryContracts": 3,
+    "syntaxChecks": 52,
+    "debugEntries": 145,
+    "sourceClassification": "Minimal independently reviewed fixes on immutable delivered baseline; no original content/art/audio deletion",
+    "knownLimits": [
+      "Actual full-game GPU60FPS and hardware context loss unverified",
+      "Full-preload browser RSS not measured; decoded pixel estimate is not actual memory",
+      "Synchronous storage compression longtasks remain",
+      "Legacy saves without stored dice motion use original fresh-generation path",
+      "Old captured priority-settlement narrative snapshots preserved; new snapshots use recovered original translations",
+      "Full Dice context reconstruction, all natural campaign routes and arbitrary Unicode not exhaustively covered"
+    ],
+    "deliveryNotBeforeUTC": "2026-10-28T23:00:00Z"
+  },
+  "actualGameGPUFPS": "unverified; source/component/CPU evidence does not establish stable60FPS",
+  "preservedDeliveredIdentity": "10f184a77094979d613baa68bae0673ccfdcd827ad57c1fa6b2db99a8d7c3550"
+}

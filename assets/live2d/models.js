@@ -1,0 +1,1 @@
+window.SDDYX_LIVE2D_MODELS={"witch":{"rootNodeID":1194081240383615,"path":"/Wizard/Witch Camera/witch","prefab":"assets/prefabs/Wizard.js"},"l2d_cardbox":{"rootNodeID":1386568470988373,"path":"/Wizard/Witch Camera/l2d_cardbox","prefab":"assets/prefabs/Wizard.js"}};
