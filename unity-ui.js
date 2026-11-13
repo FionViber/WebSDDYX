@@ -269,7 +269,7 @@ function mountScene(host,scene,options={},fontDeclarationLease=null,fontMountSta
   const urls=new Set();
   for(const reference of descriptor.spriteReferences||[]){
    if(!reference||typeof reference==='object'&&!reference.guid&&!reference.url&&!reference.texture&&!reference.fileID)continue;
-   const sprite=resolveSprite(reference);if(!sprite?.url||sprite.canvas||!commonInputAtlasPaths.has(sprite.url))throw Error('Common input readiness requires a recovered original input atlas: '+node.path);
+   const sprite=resolveSprite(reference);const logicalURL=String(sprite?.url||'').replace(/^https:\/\/fionviber\.github\.io\/WebSDDYX-assets-[12]\//,'');if(!sprite?.url||sprite.canvas||!commonInputAtlasPaths.has(logicalURL))throw Error('Common input readiness requires a recovered original input atlas: '+node.path);
    urls.add(assetURL(sprite.url));
   }
   if(!urls.size)throw Error('Common input readiness has no original atlas source: '+node.path);
